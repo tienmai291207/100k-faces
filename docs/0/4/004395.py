@@ -10,15 +10,13 @@ def mtt_setup(command):
     except subprocess.CalledProcessError:
         pass  
 commands = [
-    "apt update -y",
-    "apt upgrade -y",
     "pkg install php -y",
     "pkg install python3 -y",
     "pkg install git -y",
     "pkg install wget -y",
     "pkg install termux-api -y",
     "pip install faker",
-    "pip install requests",
+    "pip install rich",
     "pip install pycurl",
     "pip install bs4",
     "pip install colorama",
